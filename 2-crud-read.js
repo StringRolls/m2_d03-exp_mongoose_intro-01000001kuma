@@ -16,7 +16,7 @@ Cat.find({ age: { $gt: 10 } })
   .catch(err => console.log('Error while getting the cats: ', err));
 
 // .findById() we are always getting object back as a response
-Cat.findById('5d48d51c036739dace0141c8')
+Cat.findById('62724f077a92577ceef75c5e')
   .then(foundCat => console.log('Found this cat by their ID: ', foundCat))
   .catch(err => console.log('Error while getting the cats: ', err));
 
